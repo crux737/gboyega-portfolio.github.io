@@ -1,0 +1,110 @@
+/* Style margin and padding for all elements */
+* {
+    margin: 7;
+    padding: 5;
+    box-sizing: border-box;
+  }
+  
+  /* Style background color for the body */
+  body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 4;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: darkorange;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Page title style */
+  h1 {
+    font-size: 2rem;
+  }
+  
+  /* Main content section styles */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Landing section styles */
+  .landing {
+    background-color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Profile photo styles */
+  .landing img {
+    max-width: 40%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  /* Blockquote styles for quotes */
+  blockquote {
+    font-style: italic;
+    margin: 1rem 0;
+    color: #777;
+  }
+  
+  /* Bio section styles */
+  .bio {
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  /* Style for career history, education background, project */
+  [data-tab-content] {
+    display: none;
+  }
+  .active[data-tab-content] {
+    display: block;
+  }
+  body {
+    padding: 0%;
+    margin: 0%;
+  }
+  .tabs {
+  display: flex;
+  justify-content:  space-around;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  border: 1px solid black;
+  }
+  .tab {
+  cursor: pointer;
+  padding: 10px
+  }
+  .tab.active {
+  background-color: #ccc;
+  }
+
+  .tab:hover {
+  background-color: #aaa;
+
+  }
+  .tab-content {
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+  
+/* Style for info class */
+
+.infos {
+  display: flex;
+  justify-content:  space-around;
+  list-style: none;
+  margin: 0%;
+  padding: 1rem;
+  background-color: darkorange;
+  color: black;
+  border: 1px
+}
